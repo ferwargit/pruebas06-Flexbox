@@ -8,15 +8,65 @@
     width: 80%;
     height: 500px;
     background: #FF5C29;
-    margin: 50 px auto;
+    margin: 3.125rem auto;
+
+    display: flex;
+
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around;  */
+    /* justify-content: space-evenly;  */
+
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* align-items: stretch; */
+    /* align-items: baseline; */
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    /* align-content: center; */
+    /* align-content: stretch; */
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+
+    
+
+
 }
 .hijo {
     background: #00B285;
-    width: 200px;
+    width: 160px;
     height: 100px;
     color:#fff;
-    margin: 30px;
-    padding: 20px;
-    font-size: 40px;
+    margin: 1.875rem;
+    padding: 1.25rem;
+    font-size: 2.5rem;
     text-align: center;
+
+    /* flex-grow: 1; */
+    /* flex-shrink: 0; */
+    /* flex: 1 1 auto; */
+
+    /* order: 2; */
+}
+.otro {
+    /* font-size: 3.75rem; */
+    /* order: 1; */
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    align-self: stretch;
+    height: auto;
 }
